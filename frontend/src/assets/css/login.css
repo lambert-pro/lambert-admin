@@ -35,7 +35,7 @@
 }
 
 .title {
-	color: #ffeedd;
+	color: var(--font-color);
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
 }
@@ -58,7 +58,7 @@
 }
 
 .input::placeholder {
-	color: #ffeedd;
+	color: var(--font-color);
 	opacity: 1;
 }
 
@@ -69,7 +69,7 @@
 	border: none;
 	border-radius: 10px;
 	background: linear-gradient(85deg, #3a8cff, #ff4ecd); /* 渐变色 */
-	color: #ffeedd;
+	color: var(--font-color);
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 	font-weight: bold;
 	cursor: pointer;
