@@ -15,3 +15,6 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
+
+Route::post('api/login', 'Login@login');
+Route::post('api/logout', 'Login@logout');
